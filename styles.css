@@ -40,6 +40,7 @@ body {
 .resume .resume_left .resume_profile {
   width: 100%;
   height: 270px;
+  cursor: pointer;
 }
 
 .resume .resume_left .resume_profile img {
@@ -165,6 +166,43 @@ body {
 p {
   color: #fff;
 }
+
+.box {
+  position: absolute;
+  top: -10px;
+  right: 275px;
+  padding: 5px;
+  background: #000000;
+}
+
+.box a{
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#red {
+  background: #fa1616;
+}
+#blue {
+  background: #01a9b4;
+}
+#green {
+  background:#a2de96;
+}
+#grey {
+  background: #747171;
+}
+#yellow {
+  background: #f3c623;
+}
+#orange {
+  background: #ffa931;
+}
+
 
 
 
